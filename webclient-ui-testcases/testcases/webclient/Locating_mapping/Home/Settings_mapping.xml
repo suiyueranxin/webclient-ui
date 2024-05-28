@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Items title="Settings">
+ 	<Item>
+  		<Name>MeArea</Name>
+    	<ByValue>meAreaHeaderButton</ByValue>
+    	<ByType>id</ByType>
+    </Item>
+    <Item>
+  		<Name>Settings</Name>
+    	<ByValue>userSettingsBtn</ByValue>
+    	<ByType>id</ByType>
+    </Item>
+     <Item>
+  		<Name>Save</Name>
+    	<ByValue>userSettingSaveButton</ByValue>
+    	<ByType>id</ByType>
+    </Item>
+    <!-- Notifications -->
+    <Item>
+  		<Name>Notifications</Name>
+    	<ByValue>//div[@class='sapMSLITitle' and text()='Notifications']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Show Activity Reminders</Name>
+    	<ByValue>doNotDisturbSwitch</ByValue>
+    	<ByType>id</ByType>
+    </Item>
+    <Item>
+  		<Name>Show Preview in Home Page</Name>
+    	<ByValue>enablePreviewSwitch-switch</ByValue>
+    	<ByType>id</ByType>
+    </Item>
+	<Item>
+  		<Name>Show Notifications for the Last Days</Name>
+    	<ByValue>//div[@id='notificationsShowNDaysInput']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <!-- Notificaitons end. -->
+    <!-- User Activities -->
+    <Item>
+  		<Name>User Activities</Name>
+    	<ByValue>//li[@aria-label='User Activities  ']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Track my recent activity and frequently used apps</Name>
+    	<ByValue>//div[@id='trackUserActivitySwitch-switch']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Clear my history</Name>
+    	<ByValue>//button[@id='cleanActivityButton']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+      <Item>
+  		<Name>Recent Activity</Name>
+    	<ByValue>//div[@id='sapUshellIconTabBarrecentActivities-text']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+      <Item>
+  		<Name>Frequently Used</Name>
+    	<ByValue>//div[@id='sapUshellIconTabBarfrequentActivities-text']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <!-- User Activities end. -->
+    
+</Items>

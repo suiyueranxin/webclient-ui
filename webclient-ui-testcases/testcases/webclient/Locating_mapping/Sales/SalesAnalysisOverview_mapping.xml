@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Items title="Sales Analysis Overview">
+ 	<Item>
+  		<Name>Create</Name>
+    	<ByValue>//button[contains(@id,'827cacb4.0758.4c3a.bdae.7a7d6f367afe')]</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Cancel</Name>
+    	<ByValue>//button[contains(@id,'fe92817c.6f97.4978.b4a0.4acb930d1d4f')]</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Close</Name>
+    	<ByValue>//button[contains(@id,'1b654259.ffeb.420b.883c.287cab3151f7')]</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    
+	<Item>
+    	<Name>All</Name>
+    	<ByValue>menuButton</ByValue>
+    	<ByType>Id</ByType>
+    	
+    	<Columns>
+    		<Column>
+        		<Name>Settings</Name>
+				<ByValue>//button[@title = 'Table Settings']</ByValue>
+    			<ByType>xpath</ByType>
+    			<Type>Button</Type>
+      		</Column>
+      		
+     		<Column>
+        		<Name>Document Number</Name>
+				<ByValue>//div[contains(@id, 'COLUMN_DocNum_PROPERTY')]</ByValue>
+    			<ByType>xpath</ByType>
+    			<Type>StringInput</Type>
+      		</Column>
+      		
+  		</Columns>
+  	</Item>
+</Items>

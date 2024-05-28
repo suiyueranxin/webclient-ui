@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Items title="AnalyticPage">
+    <Item>
+        <Name>Title</Name>
+        <ByValue>//h1[@class='sapUshellHeadTitle']</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>Card</Name>
+        <ByValue>//div[contains(@class,'card')][contains(@class, 'sapUiFixFlex')]</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>CardTitle</Name>
+        <ByValue>//span[contains(@class,'card-title')]/span</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>DataPoint</Name>
+        <ByValue>//div[contains(@class,'v-info')]//*[name()='g'][contains(@class,'v-datapoint')]</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>Details</Name>
+        <ByValue>//div[contains(@id,'details')]//button</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>SelectedTotal</Name>
+        <ByValue>//span[contains(@id,'dataset_sum')]</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>DetailsDlg</Name>
+        <ByValue>//div[@class='sapMPopoverScroll']//div[@class='sapMLIBContent']</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+</Items>

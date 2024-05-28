@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Items title="Filter Condition Dialog">
+ 	<Item>
+  		<Name>SelectList</Name>
+    	<ByValue>//section[@class='sapMDialogSection']//div[@class='sapUiTableCCnt']</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Table</Type>
+ 	</Item>
+ 	
+ 	<Item>
+  		<Name>Customer</Name>
+    	<ByValue>//div[contains(@id,'52709261.0eec.4e71.a9fd.7fff3a142750')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	
+	<Item>
+    	<Name>All</Name>
+    	<ByValue>menuButton</ByValue>
+    	<ByType>Id</ByType>
+    	
+    	<Columns>
+     		<Column>
+        		<Name>BP Code</Name>
+				<ByValue>//div[contains(@id, 'COLUMN_CardCode_PROPERTY')]</ByValue>
+    			<ByType>xpath</ByType>
+    			<Type>StringInput</Type>
+      		</Column>
+  		</Columns>
+  	</Item>
+</Items>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Items title="Notification">
+ 	<Item>
+  		<Name>Notifications</Name>
+    	<ByValue>NotificationsCountButton</ByValue>
+    	<ByType>id</ByType>
+    	<Type>Button</Type>
+    </Item>
+    <Item>
+  		<Name>All</Name>
+    	<ByValue>sapUshellNotificationIconTabByDate</ByValue>
+    	<ByType>id</ByType>
+    	<Type>Section</Type>
+    </Item>
+    <Item>
+  		<Name>By Date</Name>
+    	<ByValue>sapUshellNotificationIconTabByType</ByValue>
+    	<ByType>id</ByType>
+    	<Type>Section</Type>
+    </Item>
+    <Item>
+  		<Name>By Priority</Name>
+    	<ByValue>sapUshellNotificationIconTabByPrio</ByValue>
+    	<ByType>id</ByType>
+    	<Type>Section</Type>
+    </Item>
+    <Item>
+  		<Name>Notification List - All</Name>
+    	<ByValue>//ul[@id='sapUshellNotificationsListDate-listUl']</ByValue>
+    	<ByType>xpaty</ByType>
+    	<Type></Type>
+    </Item>
+    <Item>
+  		<Name>Notification List - ByDate</Name>
+    	<ByValue>//ul[@id='sapUshellNotificationsListType-listUl']</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type></Type>
+    </Item>
+  	<Item>
+  		<Name>Notification List - ByPriority</Name>
+    	<ByValue>//ul[@id='sapUshellNotificationsListPriority-listUl']</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+     </Item>
+     
+    
+</Items>

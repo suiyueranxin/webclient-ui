@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Items title="Market Document">
+ 	<Item>
+  		<Name>General</Name>
+    	<ByValue>//button[contains(@id, 'fc4a6e5e.40e9.4eac.ae5c.cb78f49ce7cc-anchor')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Section</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Contents</Name>
+    	<ByValue>//button[contains(@id, 'cbc0ee9f.d53e.43fd.a906.2f4e7d5f9506-anchor')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Section</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Logistics</Name>
+    	<ByValue>//button[contains(@id, 'a6904678.d5cd.438d.bb18.981c7cd0c445-anchor')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Section</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Accounting</Name>
+    	<ByValue>//button[contains(@id, 'c705786f.8d01.414a.aefc.819c2c615a45-anchor')]</ByValue>
+    	<ByType>Id</ByType>
+    	<Type>Section</Type>
+ 	</Item>
+ 	<!-- General -->
+ 	<Item>
+  		<Name>Customer</Name>
+    	<ByValue>//div[contains(@id,'52709261.0eec.4e71.a9fd.7fff3a142750')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Contact Person</Name>
+    	<ByValue>//div[contains(@id,'03300154.345b.44db.ab94.022c5d90f19f')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Customer Ref No</Name>
+    	<ByValue>//div[contains(@id,'31ffb45d.e42c.4eea.94dc.21d1dbaaa7c7')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Remarks</Name>
+    	<ByValue>//div[contains(@id,'e1b6c1ed.e47c.4acf.9d1b.c2f795f540a2')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Series No</Name>
+    	<ByValue>//div[contains(@id,'bfe34e18.1d52.49ac.bf64.17328f2426fa')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>DropdownList</Type>
+ 	</Item>
+ 	
+ 	<Item>
+  		<Name>Posting Date</Name>
+    	<ByValue>//div[contains(@id,'81593dc0.9053.4f5a.bcac.8d9d696ca9a7')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Delivery Date</Name>
+    	<ByValue>//div[contains(@id,'0ddd3f85.c8b8.41de.86be.05623195eb28')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Document Date</Name>
+    	<ByValue>//div[contains(@id,'a9fb2a2a.0229.46a2.8f00.d97a0339a94b')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Sales Employee</Name>
+    	<ByValue>//div[contains(@id,'7e149872.9419.4b55.af4c.fed0b03ae83d')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Owner</Name>
+    	<ByValue>//div[contains(@id,'3314981c.09dd.4a2e.b366.a5e3c7032426')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<!-- Logistics -->
+ 	<Item>
+  		<Name>BP Address</Name>
+    	<ByValue>//div[contains(@id,'3314981c.09dd.4a2e.b366.a5e3c7032426')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	
+ 	<!-- Logistics - Preferences -->
+ 	<Item>
+  		<Name>Shipping Type</Name>
+    	<ByValue>//div[contains(@id,'e7dd339a.ff1c.4e09.a47b.fed70fb3df70')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Approved</Name>
+    	<ByValue>//div[contains(@id,'d9fbbc29.f8cb.48a8.9f04.aeed179a58f0')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Allow Partial Delivery</Name>
+    	<ByValue>//div[contains(@id,'823ae96f.07ce.46b5.9847.738d75c3a559')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	
+ 	
+ 	<!-- Accounting -->
+ 	<Item>
+  		<Name>Payment Terms</Name>
+    	<ByValue>//div[contains(@id,'b32a96b5.e420.4151.a61c.58ee2558bca4')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Cancellation Date</Name>
+    	<ByValue>//div[contains(@id,'b2f81b6f.fa3e.46dc.ab09.4215d64e6cf6')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Required Date</Name>
+    	<ByValue>//div[contains(@id,'ede91950.a8a4.4b24.9777.c177455dd754')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	
+ 	<!-- User Defined Fields -->
+ 	<Item>
+  		<Name>SO Header link to UDT</Name>
+    	<ByValue>//div[contains(@id,'UDF_ORDR_U_SOH_UDT')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>SO Header link to Invoice</Name>
+    	<ByValue>//div[contains(@id,'UDF_ORDR_U_SOH_Invoice')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>SO Header link to UDO Master</Name>
+    	<ByValue>//div[contains(@id,'UDF_ORDR_U_SOH_UDO')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>SO Header link to UDO Doc</Name>
+    	<ByValue>//div[contains(@id,'UDF_ORDR_U_SOH_UDO_Doc')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>SO Header Price</Name>
+    	<ByValue>//div[contains(@id,'UDF_ORDR_U_SOH_Price')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	
+ 	<!-- UDF General -->
+ 	<Item>
+  		<Name>SO Header link to BP</Name>
+    	<ByValue>//div[contains(@id,'UDF_ORDR_U_SOH_SO)]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>SO Header No Key</Name>
+    	<ByValue>//div[contains(@id,'UDF_ORDR_U_SOH_Advanced_Not')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>SO Header Time</Name>
+    	<ByValue>//div[contains(@id,'UDF_ORDR_U_SOH_Time')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>SO Header Greater</Name>
+    	<ByValue>//div[contains(@id,'UDF_ORDR_U_SOH_Greater')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	
+ 	<!-- Tab Contents  -->
+ 	
+ 	<Item>
+  		<Name>Discount</Name>
+    	<ByValue>//div[contains(@id, '032142ee.d75a.433b.b7ab.74b0701c9b4a')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Currency</Name>
+    	<ByValue>//div[contains(@id, '6e3ceac5.573d.4cdd.ad1c.e385f323817c')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>DropdownList</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Item Service Type</Name>
+    	<ByValue>//div[contains(@id, 'e55b70b2.aa50.4fb4.95f7.3fc99c5af2a1')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>DropdownList</Type>
+ 	</Item>
+ 	
+	<Item>
+    	<Name>Item Details</Name>
+    	<ByValue></ByValue>
+    	<ByType>Id</ByType>
+    	
+    	<Columns>
+     		<Column>
+        		<Name>Item No</Name>
+				<ByValue>//div[contains(@id, 'COLUMN_45d54b9e.0dba.4fda.8351.0b6140ffb3b4_PROPERTY')]</ByValue>
+    			<ByType>xpath</ByType>
+    			<Type>StringInput</Type>
+      		</Column>
+  		</Columns>
+  	</Item>
+  	
+  	<Item>
+  		<Name>Add and New</Name>
+    	<ByValue>//div[contains(@id, '85b9c535.28bd.40d3.84aa.2f4275b095c5')]//button</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Add and View</Name>
+    	<ByValue>//li[contains(@id, 'bff01f98.5c5e.49b6.8ce4.7b90d875f904')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Add and Back</Name>
+    	<ByValue>//li[contains(@id, '03b01dfc.fab0.41ca.b14a.8bf54c400147')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Save as Draft and New</Name>
+    	<ByValue>//div[contains(@id, '2d1cdd1f.a6f8.43aa.8bd6.5bb32046d3fb')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Save as Draft and View</Name>
+    	<ByValue>//li[contains(@id, '559ee17f.6389.4c9c.b520.65599590eafd')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Cancel</Name>
+    	<ByValue>//button[contains(@id, 'dfbc6e47.517f.4003.b447.e31528114a3d')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+ 	</Item>
+</Items>

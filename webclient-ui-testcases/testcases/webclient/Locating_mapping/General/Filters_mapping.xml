@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Items title="Filters">
+    <Item>
+        <Name>Adapt Filters</Name>
+        <ByValue>//button[contains(@id, '-btnFilters')]</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>Search for Filters</Name>
+        <ByValue>//input[@class='sapMSFI']</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>Show on Filter Bar</Name>
+        <ByValue>//div[@class='sapMCb']</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>Adapt Filters Go</Name>
+        <ByValue>//button[contains(@id, '-btnGoFilterDialog')]</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+ 	<Item>
+  		<Name>Search</Name>
+    	<ByValue>//header//form[@class='sapMSFF']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Go</Name>
+    	<ByValue>//button[contains(@id, '-btnGo')]</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Document Number</Name>
+    	<ByValue>//header//input[@name='DocNum']/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>BP Code</Name>
+    	<ByValue>//header//input[@name='CardCode']/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>BP Name</Name>
+    	<ByValue>//header//input[@name='CardName']/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Delivery Date</Name>
+    	<ByValue>//header//input[@name='DocDueDate']/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Status</Name>
+    	<ByValue>//header//input[@name='DocStatus']/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Sales Employee</Name>
+    	<ByValue>//header//input[@name='SlpCode']/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>User Signature</Name>
+    	<ByValue>//header//input[@name='UserSign']/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    
+    <!-- Analysis module -->
+    <Item>
+  		<Name>Analysis.PostingDate</Name>
+    	<ByValue>//header//input[contains(@name,'[PostingDate]')]/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Analysis.DocumentTypeGroup</Name>
+    	<ByValue>//header//input[contains(@name,'[DocumentType]')]/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>Analysis.DocumentTypeDisplayName</Name>
+        <ByValue>//header//input[contains(@name,'[DocumentType].[DocumentTypeDisplayName].[DocumentTypeDisplayName]')]/../..</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Analysis.BusinessPartnerCode</Name>
+    	<ByValue>//header//input[contains(@name,'[BusinessPartner].[BusinessPartner].[BusinessPartnerCode]')]/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Analysis.BusinessPartnerGroupName</Name>
+    	<ByValue>//header//input[contains(@name,'[BusinessPartner].[BusinessPartnerGroupName].[BusinessPartnerGroupName]')]/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Analysis.ItemCode</Name>
+    	<ByValue>//header//input[contains(@name,'[Item].[Item].[ItemCode]')]/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Analysis.ItemGroup</Name>
+    	<ByValue>//header//input[contains(@name,'[Item].[ItemGroup].[ItemGroup]')]/../..</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>Analysis.CurrencyCode</Name>
+        <ByValue>//header//input[contains(@name,'[Currency].[Currency].[CurrencyCode]')]/../..</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <Item>
+        <Name>Analysis.PostingYear</Name>
+        <ByValue>//header//input[contains(@name,'[PostingDate].[PostingYear].[PostingYear]')]/../..</ByValue>
+        <ByType>xpath</ByType>
+    </Item>
+    <!-- Button -->
+    <Item>
+  		<Name>Adapt Filters</Name>
+    	<ByValue>//button[contains(@id, 'btnFilters')]</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Go</Name>
+    	<ByValue>//button[contains(@id, 'btnGo')]</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    
+    <!-- My View -->
+    <Item>
+  		<Name>SaveAs</Name>
+    	<ByValue>//button[contains(@id, 'saveas')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+    </Item>
+    <Item>
+  		<Name>Manager</Name>
+    	<ByValue>//button[contains(@id, 'manage')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+    </Item>
+    <Item>
+  		<Name>ViewName</Name>
+    	<ByValue>//div[contains(@id, 'savedialog')]//input[contains(@id, 'name')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type></Type>
+    </Item>
+	<Item>
+  		<Name>SetAsDefault</Name>
+    	<ByValue>//div[contains(@id, 'default-CbBg')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Checkbox</Type>
+    </Item>
+    <Item>
+  		<Name>Public</Name>
+    	<ByValue>//div[contains(@id, 'share-CbBg')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Checkbox</Type>
+    </Item>
+    <Item>
+  		<Name>OK</Name>
+    	<ByValue>//button[contains(@id, 'variantsave')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+    </Item>
+    <Item>
+  		<Name>Cancel</Name>
+    	<ByValue>//button[contains(@id, 'variantcancel')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>Button</Type>
+    </Item>
+    <Item>
+        <Name>FilterLabel</Name>
+        <ByValue>//label[contains(@class, 'sapUiCompFilterLabel')]/bdi</ByValue>
+        <ByType>xpath</ByType>
+        <Type></Type>
+    </Item>
+</Items>

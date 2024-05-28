@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Main Test Suite" verbose="2">
+	<listeners>
+		<listener class-name="webuita.report.ExtentReporterNG"></listener>
+		<listener class-name="webuita.report.TestListenner"></listener>
+	</listeners>
+	<!-- selenium setting -->
+	<parameter name="browserType"  value="chrome"/>
+	<parameter name="driverPath" value="libs"/>
+	<parameter name="tcHomePage" value="http://10.193.84.72:8080"/>
+	<!-- B1A content path -->
+	<parameter name="b1aContentPath" value="/opt/sap/SAPBusinessOne/AnalyticsPlatform/"/>
+	<!-- hana server setting -->
+	<parameter name="hanaServerHost" value="10.193.84.72"/>
+	<parameter name="hanaServerHostUsername" value="root"/>
+	<parameter name="hanaServerHostPassword" value="12345"/>
+	<parameter name="hanaServerPort" value="30013"/>
+	<parameter name="hanaDBUsername" value="SYSTEM"/>
+	<parameter name="hanaDBPassword" value="Initial0"/>
+	
+	<!-- whether restore/drop company when finish test case running : Yes/No-->
+	<parameter name="restoreCompanyDB" value="no"/>
+	<parameter name="dropCompanyDbAfterRunning" value="no"/>
+	<parameter name="writeDBNameFile" value="no"/>
+	
+	<!-- thin client server setting -->
+	<parameter name="tcServerHost" value="10.193.84.72"/>
+	<parameter name="tcServerUsername" value="root"/>
+	<parameter name="tcServerPassword" value="12345"/>
+	<parameter name="tcCodeLine" value="10.0_COR"/>
+	
+	<!-- SLD setting -->
+	<parameter name="sldRefApiUrl" value="http://10.58.114.26:9100/CommonService/RefreshSLDCompanies"/>
+	<parameter name="sldPort" value="40000"/>
+	<parameter name="sldAccount" value="B1SiteUser"/>
+	<parameter name="sldPassword" value="1234"/>
+	
+	<!-- dbbackupSrcPath - windows server path -->
+	<parameter name="dbbackupSrcPath" value="/Kira/DB_Import/"/>
+	
+	<!-- tc build path on tc server (tomcat server) -->
+	<parameter name="tcbuildPath" value="/Kira/ThinClientBuild/dist/"/>
+	
+	<!-- SAPJVM path -->
+	<parameter name="sapJvmPath" value="/Kira/SAPJVM/bin/"/>
+	<!-- When case run failed, stop run -->
+    <parameter name="stopRunAfterFail" value="yes"/>
+	<!-- devtool setting -->
+	<parameter name="webClientToolPath" value="C:\\TA\\tc-ui-testcases\\devtools\\"/>
+	<!-- chart compare -->
+	<parameter name="similarity" value="100"/>
+	<!-- waiting time -->
+	<parameter name="waitSeconds" value="3"/>
+	
+	<test name="test extension-manager" time-out="1800000">
+	   <classes>
+       		<class name="webclient.Analytic.SalesAnalysisChart.GreatWall.SBO100_961.SBO100_961"/>  				  
+       </classes> 
+    </test>
+    
+</suite>

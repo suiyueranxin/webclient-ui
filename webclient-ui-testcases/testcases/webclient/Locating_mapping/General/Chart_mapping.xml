@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Items title="Chart">
+ 	<Item>
+  		<Name>Legend</Name>
+    	<ByValue>//button[@title='Legend']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Open Full screen</Name>
+    	<ByValue>//button[@title='Open Full Screen']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+	<Item>
+  		<Name>Close Full screen</Name>
+    	<ByValue>//button[@title='Close Full Screen']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Zoom In</Name>
+    	<ByValue>//button[@title='Zoom In']/ByValue></ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Zoom Out</Name>
+    	<ByValue>//button[@title='Zoom Out']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+
+    <!-- Sort -->
+    <Item>
+  		<Name>SortButton</Name>
+    	<ByValue>//button[contains(@id, 'sortButton')]</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+	<Item>
+  		<Name>Sort By List</Name>
+    	<ByValue>//div[@id='sortByList']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+	<Item>
+  		<Name>Sort Option List</Name>
+    	<ByValue>//div[@id='sortOptionList']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Sort By</Name>
+    	<ByValue>//button[@title='Zoom Out']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+    <Item>
+  		<Name>Sort Order</Name>
+    	<ByValue>//button[@title='Zoom Out']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+	
+	<Item>
+  		<Name>More</Name>
+    	<ByValue>//button[@title='More']</ByValue>
+    	<ByType>xpath</ByType>
+    </Item>
+	
+</Items>

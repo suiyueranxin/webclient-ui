@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Items title="Home">
+ 	<Item>
+  		<Name>MainMenu</Name>
+    	<ByValue>menuButton</ByValue>
+    	<ByType>Id</ByType>
+    	<Type>Menu</Type>
+ 	</Item>
+ 	<!-- Logon -->
+ 	<Item>
+  		<Name>Company</Name>
+    	<ByValue>companyselect</ByValue>
+    	<ByType>Id</ByType>
+    	<Type>Select</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Username</Name>
+    	<ByValue>username</ByValue>
+    	<ByType>Id</ByType>
+    	<Type>Input</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Password</Name>
+    	<ByValue>password</ByValue>
+    	<ByType>Id</ByType>
+    	<Type>Input</Type>
+ 	</Item>
+ 	<Item>
+  		<Name>Login</Name>
+    	<ByValue>login</ByValue>
+    	<ByType>Id</ByType>
+    	<Type>Button</Type>
+ 	</Item>
+ 	<!-- Logon End-->
+	<Item>
+    	<Name>All</Name>
+    	<ByValue>menuButton</ByValue>
+    	<ByType>Id</ByType>
+    	<Type>Grid</Type>
+    	<Columns>
+     		<Column>
+        		<Name>Document Number</Name>
+				<ByValue>menuButton</ByValue>
+    			<ByType>Id</ByType>
+    			<Type>StringInput</Type>
+      		</Column>
+  		</Columns>
+  	</Item>
+</Items>

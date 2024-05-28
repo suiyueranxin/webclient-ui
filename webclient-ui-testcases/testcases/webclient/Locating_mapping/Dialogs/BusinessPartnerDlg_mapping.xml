@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Items title="Sales Order">
+ 	<Item>
+  		<Name>Search</Name>
+    	<ByValue>application-thinclient-ORDR-component---MainPage--ORDR:Detail:DEFAULT-9b1eb386.3b4e.4570.98e4.4044008cd415-anchBar-application-thinclient-ORDR-component---MainPage--ORDR:Detail:DEFAULT-fc4a6e5e.40e9.4eac.ae5c.cb78f49ce7cc-anchor</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	
+ 	<Item>
+  		<Name>Customer</Name>
+    	<ByValue>//div[contains(@id,'52709261.0eec.4e71.a9fd.7fff3a142750')]</ByValue>
+    	<ByType>xpath</ByType>
+    	<Type>StringInput</Type>
+ 	</Item>
+ 	
+	<Item>
+    	<Name>All</Name>
+    	<ByValue>menuButton</ByValue>
+    	<ByType>Id</ByType>
+    	
+    	<Columns>
+     		<Column>
+        		<Name>BP Code</Name>
+				<ByValue>//div[contains(@id, 'COLUMN_CardCode_PROPERTY')]</ByValue>
+    			<ByType>xpath</ByType>
+    			<Type>StringInput</Type>
+      		</Column>
+  		</Columns>
+  	</Item>
+</Items>
